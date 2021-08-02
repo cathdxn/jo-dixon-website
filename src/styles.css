@@ -2,25 +2,26 @@
     h1, h2, .intro-description {
         text-align: center;
     }
-    .content {
-        border-radius: 10px;
-    }
-    .small-photo {
-        display: none;
-    }
 }
-@media (max-width: 576px) {
-    .big-photo { display: none;}
-}
-
 body {
-    background: linear-gradient(179.4deg, rgb(253, 240, 233) 2.2%, rgb(255, 194, 203) 96.2%);}
+    background: url('/images/plain-desk.jpg');
+    background-size: cover;
+}
 .content {
-    background: rgb(255, 254, 251);
+    background: rgb(255, 254, 251, 0.8);
     padding: 10px;
-    margin: 50px 0px;
+    margin: 20px auto;
+    border-radius: 10px;
 }
 .body-wrapper {
     max-width: 850px;
+    display: block; 
+    margin: 70px auto;
+}
+.jo-hospital {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    display: block; 
     margin: auto;
 }
