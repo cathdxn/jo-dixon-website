@@ -1,16 +1,27 @@
+@media (min-width: 576px) {
+    h1, h2, .intro-description {
+        text-align: center;
+    }
+    .content {
+        border-radius: 10px;
+    }
+    .small-photo {
+        display: none;
+    }
+}
+@media (max-width: 576px) {
+    .big-photo { display: none;}
+}
+
 body {
-    background-image: url("/src/missing-link.jpg");
-    background-size: cover;
-}
-h1, h2, .intro-description {
-    text-align: center;
-}
+    background: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);}
+
 .content {
     background: rgb(255, 254, 251);
-    padding: 20px;
+    padding: 10px;
+    margin: 50px 0px;
 }
 .body-wrapper {
     max-width: 850px;
     margin: auto;
-    padding: 50px;
 }
