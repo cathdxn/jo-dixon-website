@@ -5,9 +5,12 @@ body {
 h1, h2, .intro-description {
     text-align: center;
 }
+.content {
+    background: rgb(255, 254, 251);
+    padding: 20px;
+}
 .body-wrapper {
     max-width: 850px;
-    background: rgb(255, 254, 251);
     margin: auto;
     padding: 50px;
 }
