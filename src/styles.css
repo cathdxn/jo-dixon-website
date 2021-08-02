@@ -1,0 +1,13 @@
+body {
+    background-image: url("/src/missing-link.jpg");
+    background-size: cover;
+}
+h1, h2, .intro-description {
+    text-align: center;
+}
+.body-wrapper {
+    max-width: 850px;
+    background: rgb(255, 254, 251);
+    margin: auto;
+    padding: 50px;
+}
