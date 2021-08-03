@@ -3,6 +3,12 @@
         text-align: center;
     }
 }
+:root {
+    --primary-color:  #bc4f4f; 
+    --secondary-color: #e98b50; 
+    --primary-background: #f3cd97; 
+    --secondary--background: #fef2a0; 
+}
 body {
     background: url('/images/plain-desk.jpg');
     background-size: cover;
@@ -24,4 +30,5 @@ body {
     max-width: 400px;
     display: block; 
     margin: auto;
+    border-radius: 4px;
 }
