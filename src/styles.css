@@ -1,34 +1,60 @@
-@media (min-width: 576px) {
-    h1, h2, .intro-description {
-        text-align: center;
-    }
+@media (min-width: 768px) {
+  h1,
+  h2,
+  h3,
+  .intro-description {
+    text-align: center;
+  }
 }
 :root {
-    --primary-color:  #bc4f4f; 
-    --secondary-color: #e98b50; 
-    --primary-background: #f3cd97; 
-    --secondary--background: #fef2a0; 
+  --primary-color: #bc4f4f;
+  --secondary-color: #e98b50;
+  --primary-background: #f3cd97;
+  --secondary--background: #fef2a0;
 }
 body {
-    background: url('/images/plain-desk.jpg');
-    background-size: cover;
+  background: url("/images/plain-desk.jpg");
+  background-size: cover;
 }
 .content {
-    background: rgb(255, 254, 251, 0.8);
-    padding: 10px;
-    margin: 20px auto;
-    border-radius: 10px;
+  background: rgb(255, 254, 251, 0.8);
+  padding: 10px;
+  margin: 20px auto;
+  border-radius: 10px;
+  min-width: 476px;
+  min-height: 140px;
 }
 .body-wrapper {
-    max-width: 850px;
-    display: block; 
-    margin: 80px auto;
+  max-width: 1000px;
+  display: block;
+  margin: 80px auto;
+}
+.jo-hospital,
+.book-cover {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 4px;
 }
 .jo-hospital {
-    width: 100%;
-    height: auto;
-    max-width: 400px;
-    display: block; 
-    margin: auto;
-    border-radius: 4px;
+  max-width: 400px;
+}
+.book-cover {
+  max-width: 450px;
+}
+.buy-button {
+  background: #ccbaa9;
+  color: #f6f1ea;
+  display: block;
+  margin: auto;
+  padding: 8px 20px;
+}
+.buy-button:hover {
+  background: #a89481;
+  color: #f6f1ea;
+}
+.media-link {
+  text-decoration: none;
+  color: black;
 }
