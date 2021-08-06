@@ -24,6 +24,10 @@ a {
   padding: 10px;
   margin: 20px auto;
   border-radius: 10px;
+  display: block;
+}
+.contact-page {
+  max-width: 500px;
 }
 .body-wrapper {
   max-width: 1000px;
