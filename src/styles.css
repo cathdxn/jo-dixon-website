@@ -6,6 +6,12 @@
     text-align: center;
   }
 }
+@media (min-width: 992px) {
+  .navbar {
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+  }
+}
 :root {
   --primary-color: #bc4f4f;
   --secondary-color: #e98b50;
@@ -26,6 +32,7 @@ a {
   border-radius: 10px;
   display: block;
 }
+
 .contact-page {
   max-width: 500px;
 }
@@ -35,7 +42,8 @@ a {
   margin: 80px auto;
 }
 .jo-hospital,
-.book-cover {
+.book-cover,
+.jo-chicken {
   width: 100%;
   height: auto;
   display: block;
