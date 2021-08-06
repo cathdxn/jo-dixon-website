@@ -21,6 +21,7 @@
 body {
   background: url("/images/plain-desk.jpg");
   background-size: cover;
+  font-family: "Poppins", sans-serif;
 }
 a {
   transition: all 100ms ease-in-out;
