@@ -91,3 +91,6 @@ a {
 .social-media-links:hover {
   color: var(--secondary-color);
 }
+.source-link:hover {
+  color: #a89481;
+}
