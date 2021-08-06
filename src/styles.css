@@ -12,11 +12,19 @@
     padding-top: 0rem;
   }
 }
+@media (max-width: 575.98px) {
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+}
 :root {
-  --primary-color: #bc4f4f;
-  --secondary-color: #e98b50;
-  --primary-background: #f3cd97;
-  --secondary--background: #fef2a0;
+  --primary-color: #ccbaa9;
+  --secondary-color: #a89481;
+  --primary-background: rgb(255, 254, 251, 0.8);
+  --secondary-background: #f6f1ea;
 }
 body {
   background: url("/images/plain-desk.jpg");
@@ -27,7 +35,7 @@ a {
   transition: all 100ms ease-in-out;
 }
 .content {
-  background: rgb(255, 254, 251, 0.8);
+  background: var(--primary-background);
   padding: 10px;
   margin: 20px auto;
   border-radius: 10px;
@@ -58,16 +66,16 @@ a {
   max-width: 450px;
 }
 .buy-button {
-  background: #ccbaa9;
-  color: #f6f1ea;
+  background: var(--primary-color);
+  color: var(--secondary-background);
   display: block;
   margin: auto;
   padding: 8px 20px;
   max-width: 250px;
 }
 .buy-button:hover {
-  background: #a89481;
-  color: #f6f1ea;
+  background: var(--secondary-color);
+  color: var(--secondary-background);
 }
 .media-link {
   text-decoration: none;
@@ -81,5 +89,5 @@ a {
   text-decoration: none;
 }
 .social-media-links:hover {
-  color: #a89481;
+  color: var(--secondary-color);
 }
