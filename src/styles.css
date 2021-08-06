@@ -21,7 +21,7 @@
 body {
   background: url("/images/plain-desk.jpg");
   background-size: cover;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 a {
   transition: all 100ms ease-in-out;
@@ -75,4 +75,11 @@ a {
 }
 .buy-missing-link {
   max-width: 500px;
+}
+.social-media-links {
+  color: black;
+  text-decoration: none;
+}
+.social-media-links:hover {
+  color: #a89481;
 }
