@@ -2,7 +2,10 @@
   h1,
   h2,
   h3,
-  .intro-description {
+  .intro-description,
+  .content-title,
+  .description, 
+  .dementia-cause {
     text-align: center;
   }
 }
@@ -13,11 +16,18 @@
   }
 }
 @media (max-width: 575.98px) {
-  h2 {
+  h3 {
     font-size: 22px;
   }
-  h3 {
+  h4 {
     font-size: 12px;
+  }
+  .book-cover {
+    display: flex;
+    align-content: center;
+  }
+  .dementia-cause {
+    text-align: left;
   }
 }
 :root {
@@ -26,10 +36,9 @@
   --primary-background: rgb(255, 254, 251, 0.8);
   --secondary-background: #f6f1ea;
 }
+
 body {
-  background: url("/images/plain-desk.jpg");
-  background-size: cover;
-  font-family: "Raleway", sans-serif;
+  font-family: sans-serif;
 }
 a {
   transition: all 100ms ease-in-out;
@@ -46,34 +55,36 @@ a {
   max-width: 500px;
 }
 .body-wrapper {
-  max-width: 1000px;
+  max-width: 800px;
   display: block;
   margin: 80px auto;
 }
-.jo-hospital,
-.book-cover,
-.jo-chicken {
+.media-image {
   width: 100%;
-  height: auto;
   display: block;
   margin: auto;
   border-radius: 4px;
 }
-.jo-hospital {
-  max-width: 400px;
+.card {
+  border: none;
 }
 .book-cover {
-  max-width: 450px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto 0;
+  border-radius: 4px;
 }
-.buy-button {
+
+.book-cover {
+  max-width: 200px;
+}
+.button {
   background: var(--primary-color);
   color: var(--secondary-background);
-  display: block;
   margin: auto;
-  padding: 8px 20px;
-  max-width: 250px;
 }
-.buy-button:hover {
+.button:hover {
   background: var(--secondary-color);
   color: var(--secondary-background);
 }
@@ -91,6 +102,10 @@ a {
 .social-media-links:hover {
   color: var(--secondary-color);
 }
+.source, .source-link {
+  color: var(--secondary-color);
+}
+
 .source-link:hover {
-  color: #a89481;
+  color: black;
 }
