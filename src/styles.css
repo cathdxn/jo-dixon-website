@@ -31,20 +31,20 @@
   }
 }
 :root {
-  --primary-color: #ccbaa9;
-  --secondary-color: #a89481;
-  --primary-background: rgb(255, 254, 251, 0.8);
-  --secondary-background: #f6f1ea;
+  --primary-color: #0B2A3F;
+  --secondary-color: #2f6a69;
+  --primary-background: #D3E4E9;
 }
 
 body {
   font-family: sans-serif;
+  background: var(--primary-background);
 }
 a {
   transition: all 100ms ease-in-out;
 }
 .content {
-  background: var(--primary-background);
+  background: white;
   padding: 10px;
   margin: 20px auto;
   border-radius: 10px;
@@ -81,12 +81,12 @@ a {
 }
 .button {
   background: var(--primary-color);
-  color: var(--secondary-background);
+  color: var(--primary-background);
   margin: auto;
 }
 .button:hover {
   background: var(--secondary-color);
-  color: var(--secondary-background);
+  color: var(--primary-background);
 }
 .media-link {
   text-decoration: none;
